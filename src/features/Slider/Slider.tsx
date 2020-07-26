@@ -45,7 +45,7 @@ const Slider: React.FunctionComponent = () => {
           <div key={id} className="Slider-div">
             <img
               className="Slider-image"
-              src={image}
+              src={process.env.PUBLIC_URL + image}
               alt={`${author} - ${title}`}
             />
             {id === cover.id && <Logo />}
