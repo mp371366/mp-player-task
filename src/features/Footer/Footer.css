@@ -1,0 +1,20 @@
+.Footer {
+  background-color: white;
+  height: 45px;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.Footer-main {
+  width: 90%;
+  margin: 0 20px;
+}
+
+.Footer>p {
+  align-self: flex-end;
+  margin-bottom: 5px;
+}

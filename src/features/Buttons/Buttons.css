@@ -1,0 +1,15 @@
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.Buttons-active-button {
+  filter: brightness(200%);
+}
+
+.Buttons-play-button {
+  width: 100px;
+  height: 100px;
+}

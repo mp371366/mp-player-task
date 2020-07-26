@@ -1,0 +1,40 @@
+.Player {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient( to bottom, rgba(31, 25, 55, 0.95) 0%, rgba(31, 25, 55, 1) 60%, rgba(31, 25, 55, 1) 100%), url('/images/background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.Player-main {
+  height: calc(100vh - 125px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Slider {
+  height: 60%;
+  width: 147vw;
+}
+
+.Buttons {
+  height: 15%;
+}
+
+.ProgressBar {
+  height: 15%;
+}
+
+.Wave {
+  height: 10%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .Slider {
+    height: 60%;
+    width: 147vw;
+  }
+}
